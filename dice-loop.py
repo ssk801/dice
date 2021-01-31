@@ -9,6 +9,11 @@ while True:
     print("Please enter number of dice, then number of sides, seaparated by a space")
     
     num,sides=input().split()
+    sum=0
+    print("Rolls: ",end="")
+
     for x in range(int(num)):
-        print(random.randint(1,int(sides)),end=" ")
-    print('\n')
+        roll=random.randint(1,int(sides))
+        sum+=roll
+        print(roll,end=" ")
+    print('\n'+"Sum: "+str(sum)+'\n')
