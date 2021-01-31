@@ -1,3 +1,7 @@
+#dice-loop
+#01feb2021
+#this one uses kbd input to get the number and type of dice you want to roll
+
 import random
 
 while True:
