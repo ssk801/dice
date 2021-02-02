@@ -12,9 +12,6 @@ histo=[]
 for i in range (1,17):
     histo.append(0)
 
-#print(histo)
-#print(len(histo))
-
 for j in range(1,100000):
     roll=d6()+d6()+d6()
     #print(roll)
