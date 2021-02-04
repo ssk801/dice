@@ -20,7 +20,7 @@ for j in range(1,100000):
     roll=0
     for k in range(n):
         roll+=d6()
-        #print(roll)
     histo[roll-n]+=1
 
 print(histo)
+
